@@ -1,0 +1,14 @@
+name: testing self hoster runner
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  test:
+    runs-on: [self-hosted, macOS, x64, dev]
+    steps:
+      - name: hehe xd
+        run: |
+          echo "Sieeeema"
+          sleep 10
